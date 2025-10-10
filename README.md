@@ -140,20 +140,19 @@ Financial Processes: Invoice processing, approval workflows
 📸 Screenshots
 
 Make.com workflow diagram
-![Make.com Workflow Diagram](https://github.com/user-attachments/assets/2b4ea7ca-0325-...)
+<img width="1350" height="744" alt="workflow-diagram" src="https://github.com/user-attachments/assets/8af896e3-1965-4e72-83c8-dfb3395aacf3" />
 
 Sample invoice input
-![Sample Invoice Input](https://github.com/user-attachments/assets/388c45c9-57c6-...)
- 
+<img width="1117" height="551" alt="sample-invoice" src="https://github.com/user-attachments/assets/175158ff-4a54-4e52-85e4-0f7df6cd69d5" />
+
 OpenAI extraction output
-![OpenAI Extraction Output](https://github.com/user-attachments/assets/12fb78e6-4c4d-...)
+<img width="1431" height="807" alt="openai-extraction" src="https://github.com/user-attachments/assets/a24f8c8e-be07-4143-b279-c6790c289023" />
 
 Google Sheets log
-![Google Sheets Log](https://github.com/user-attachments/assets/cf85179d-3433-...)
+<img width="1421" height="649" alt="google-sheets-log" src="https://github.com/user-attachments/assets/5b982985-0eaf-467e-972f-7e7b6a4ac7d1" />
 
 Slack notifications
-![Slack Notification](https://github.com/user-attachments/assets/51120690-d3a...)
-
+<img width="1361" height="679" alt="slack-notification" src="https://github.com/user-attachments/assets/e476d367-04b9-4e49-9d81-65691e008a5f" />
 
 
 🔐 Setup Requirements
