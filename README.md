@@ -139,20 +139,20 @@ Financial Processes: Invoice processing, approval workflows
 
 📸 Screenshots
 
-Make.com workflow diagram
-<img width="1350" height="744" alt="workflow-diagram" src="https://github.com/user-attachments/assets/8af896e3-1965-4e72-83c8-dfb3395aacf3" />
+### Make.com Workflow Diagram
+![Workflow Diagram](docs/screenshots/workflow-diagram.png)
 
-Sample invoice input
-<img width="1117" height="551" alt="sample-invoice" src="https://github.com/user-attachments/assets/175158ff-4a54-4e52-85e4-0f7df6cd69d5" />
+### Sample Invoice Input
+![Sample Invoice](docs/screenshots/sample-invoice.png)
 
-OpenAI extraction output
-<img width="1431" height="807" alt="openai-extraction" src="https://github.com/user-attachments/assets/a24f8c8e-be07-4143-b279-c6790c289023" />
+### OpenAI Extraction Output
+![OpenAI Extraction](docs/screenshots/openai-extraction.png)
 
-Google Sheets log
-<img width="1421" height="649" alt="google-sheets-log" src="https://github.com/user-attachments/assets/5b982985-0eaf-467e-972f-7e7b6a4ac7d1" />
+### Google Sheets Log
+![Google Sheets Log](docs/screenshots/google-sheets-log.png)
 
-Slack notifications
-<img width="1361" height="679" alt="slack-notification" src="https://github.com/user-attachments/assets/e476d367-04b9-4e49-9d81-65691e008a5f" />
+### Slack Notifications
+![Slack Notification](docs/screenshots/slack-notification.png)
 
 
 🔐 Setup Requirements
