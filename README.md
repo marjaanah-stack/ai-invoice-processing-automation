@@ -70,74 +70,71 @@ Total: $32,420.88
   "total_amount": 32420.88,
   "line_items": [...]
 }
+```
 
-## Result:
+## 📊 Result:
+✅ Logged to Google Sheets  
+✅ Routed to CFO approval (over $5K)  
+✅ Slack notification sent  
 
-✅ Logged to Google Sheets
-✅ Routed to CFO approval (over $5K)
-✅ Slack notification sent
+## 📈 Business Impact
+**Time Savings:** 15-30 min → 30 seconds per invoice  
+**Accuracy:** 95%+ extraction accuracy  
+**Scalability:** Handles unlimited invoices  
+**Cost:** ~$0.02 per invoice (OpenAI API costs)  
 
-📈 Business Impact
+## 🔧 Technical Implementation
 
-Time Savings: 15-30 min → 30 seconds per invoice
-Accuracy: 95%+ extraction accuracy
-Scalability: Handles unlimited invoices
-Cost: ~$0.02 per invoice (OpenAI API costs)
+### Make.com Scenario Configuration
+**Modules Used:**
+- Gmail - Watch Emails (trigger)
+- Router (conditional logic)
+- OpenAI - Create Chat Completion (GPT-4o)
+- JSON - Parse JSON
+- Google Sheets - Add Row
+- Router (approval thresholds)
+- Slack - Create Message (×3 paths)
 
-🔧 Technical Implementation
-Make.com Scenario Configuration
-Modules Used:
-
-Gmail - Watch Emails (trigger)
-Router (conditional logic)
-OpenAI - Create Chat Completion (GPT-4o)
-JSON - Parse JSON
-Google Sheets - Add Row
-Router (approval thresholds)
-Slack - Create Message (×3 paths)
-
-OpenAI Prompt Engineering
+### OpenAI Prompt Engineering
 Custom system and user prompts ensure consistent JSON output with specific data structure. Temperature set to 0 for deterministic extraction.
-Error Handling
 
-Filter conditions prevent processing non-invoice emails
-JSON parser validates structured output
-Slack notifications confirm successful processing
+### Error Handling
+- Filter conditions prevent processing non-invoice emails
+- JSON parser validates structured output
+- Slack notifications confirm successful processing
 
-📝 Current Limitations & Roadmap
-Current Implementation
-✅ Processes invoice text from email body
-✅ Handles multiple currencies and formats
-✅ Conditional approval routing
-✅ Real-time logging and notifications
+## 📝 Current Limitations & Roadmap
 
-Known Limitations
-⚠️ PDF Processing: Currently processes text-based invoices. PDF attachment processing requires additional integration:
+### Current Implementation
+✅ Processes invoice text from email body  
+✅ Handles multiple currencies and formats  
+✅ Conditional approval routing  
+✅ Real-time logging and notifications  
 
-Option A: Paid PDF extraction service (PDF4me, Adobe PDF Services)
-Option B: Custom Gmail API integration for attachment handling
-Option C: OCR service for scanned invoices
+### Known Limitations
+⚠️ **PDF Processing:** Currently processes text-based invoices. PDF attachment processing requires additional integration:
+- **Option A:** Paid PDF extraction service (PDF4me, Adobe PDF Services)
+- **Option B:** Custom Gmail API integration for attachment handling
+- **Option C:** OCR service for scanned invoices
 
-Future Enhancements
+### Future Enhancements
+- [ ] PDF attachment processing
+- [ ] OCR for scanned invoices
+- [ ] Multi-currency conversion
+- [ ] Vendor database integration
+- [ ] Duplicate invoice detection
+- [ ] Approval workflow automation (button clicks in Slack)
+- [ ] Payment scheduling integration
 
- PDF attachment processing
- OCR for scanned invoices
- Multi-currency conversion
- Vendor database integration
- Duplicate invoice detection
- Approval workflow automation (button clicks in Slack)
- Payment scheduling integration
+## 🎓 Skills Demonstrated
+- **AI Integration:** OpenAI API, prompt engineering
+- **Workflow Automation:** Make.com scenario building
+- **API Integrations:** Gmail, Google Sheets, Slack
+- **Data Transformation:** JSON parsing, data mapping
+- **Conditional Logic:** Multi-path routing
+- **Financial Processes:** Invoice processing, approval workflows
 
-🎓 Skills Demonstrated
-
-AI Integration: OpenAI API, prompt engineering
-Workflow Automation: Make.com scenario building
-API Integrations: Gmail, Google Sheets, Slack
-Data Transformation: JSON parsing, data mapping
-Conditional Logic: Multi-path routing
-Financial Processes: Invoice processing, approval workflows
-
-📸 Screenshots
+## 📸 Screenshots
 
 ### Make.com Workflow Diagram
 ![Workflow Diagram](docs/screenshots/workflow-diagram.png)
@@ -154,18 +151,15 @@ Financial Processes: Invoice processing, approval workflows
 ### Slack Notifications
 ![Slack Notification](docs/screenshots/slack-notification.png)
 
+## 🔐 Setup Requirements
+- Make.com account (free tier works)
+- OpenAI API key (GPT-4o access)
+- Gmail account
+- Google Sheets
+- Slack workspace
 
-🔐 Setup Requirements
-
-Make.com account (free tier works)
-OpenAI API key (GPT-4o access)
-Gmail account
-Google Sheets
-Slack workspace
-
-📧 Contact
-Marjaana Peeters
-Fractional CFO | AI Automation Specialist
-
-LinkedIn: www.linkedin.com/in/marjaana-peeters-0442a4
+## 📧 Contact
+**Marjaana Peeters**  
+Fractional CFO | AI Automation Specialist  
+LinkedIn: www.linkedin.com/in/marjaana-peeters-0442a4  
 Email: marjaanah@gmail.com
