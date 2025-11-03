@@ -71,7 +71,7 @@ Total: $32,420.88
   "line_items": [...]
 }
 
-Result:
+## Result:
 
 ✅ Logged to Google Sheets
 ✅ Routed to CFO approval (over $5K)
