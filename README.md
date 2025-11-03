@@ -160,6 +160,5 @@ Custom system and user prompts ensure consistent JSON output with specific data 
 
 ## 📧 Contact
 **Marjaana Peeters**  
-Fractional CFO | AI Automation Specialist  
+AI Finance Automation Enthusiast  
 LinkedIn: www.linkedin.com/in/marjaana-peeters-0442a4  
-Email: marjaanah@gmail.com
